@@ -10,31 +10,34 @@ export const AboutUS = () => {
   const tabsData = {
     chauffeur: [
       {
-        image: "/public/سعر-سيارة-بنتلي-بينتايجا-جديدة-.jpg",
+        image: "Public/سعر-سيارة-بنتلي-بينتايجا-جديدة-.jpg",
         title: t("about.luxury"),
       },
       {
         image:
-          "/public/5f0d5229e9c27Ford_Bronco_4_door_2021_front_dubai_uae.jpg",
+          "public/5f0d5229e9c27Ford_Bronco_4_door_2021_front_dubai_uae.jpg",
         title: t("about.suv"),
       },
-      { image: "/public/فيات-الإيطالية.jpeg", title: t("about.economy") },
+      { image: "public/فيات-الإيطالية.jpeg", title: t("about.economy") },
     ],
     airport: [
-      { image: "/public/ليموزين المطار.jpg", title: t("about.airport_basic") },
-      { image: "/public/كبار الشخصيات.jpg", title: t("about.vip_service") },
+      {
+        image: "public/ليموزين المطار.jpg",
+        title: t("about.airport_basic"),
+      },
+      { image: "public/كبار الشخصيات.jpg", title: t("about.vip_service") },
     ],
     needs: [
       {
-        image: "/public/سعر-سيارة-بنتلي-بينتايجا-جديدة-.jpg",
+        image: "public/سعر-سيارة-بنتلي-بينتايجا-جديدة-.jpg",
         title: t("about.luxury"),
       },
       {
         image:
-          "/public/5f0d5229e9c27Ford_Bronco_4_door_2021_front_dubai_uae.jpg",
+          "public/5f0d5229e9c27Ford_Bronco_4_door_2021_front_dubai_uae.jpg",
         title: t("about.suv"),
       },
-      { image: "/public/فيات-الإيطالية.jpeg", title: t("about.economy") },
+      { image: "public/فيات-الإيطالية.jpeg", title: t("about.economy") },
     ],
   };
 
@@ -97,7 +100,11 @@ export const AboutUS = () => {
                               variant="top"
                               src={item.image}
                               alt={item.title}
-                              style={{ height: "180px", objectFit: "cover" }}
+                            style={{
+                    width: "180%",
+                    aspectRatio: "16 / 9",
+                    objectFit: "contain",
+                  }}
                             />
                             <Card.Body className="d-flex flex-column justify-content-between text-center">
                               <Card.Title

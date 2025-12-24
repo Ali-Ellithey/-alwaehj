@@ -59,7 +59,7 @@ const LuxuryCarsDetails = () => {
                   style={{ width: "100%", height: "100%", objectFit: "cover" }}
                 >
                   <source
-                    src="/public/videos/Discover the (2).mp4"
+                    src="public/videos/Discover the (2).mp4"
                     type="video/mp4"
                   />
                 </video>

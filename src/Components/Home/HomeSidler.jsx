@@ -6,7 +6,7 @@ import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next"; // استيراد الهوك
 
-import imgSlider1 from "../../Images/images.jpg";
+import imgSlider1 from "../../Images/images-NRVHT9oH.jpg";
 import imgSlider2 from "../../Images/rent-Rolls-Royce-Cullinan-in-Dubai--900x600.jpg";
 import imgSlider3 from "../../Images/GMC-Yukon-Denali-rental-price-in-dubai-900x600.jpg";
 

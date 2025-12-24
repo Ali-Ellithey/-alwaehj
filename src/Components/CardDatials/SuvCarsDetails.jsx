@@ -66,7 +66,7 @@ const SuvCarsDetails = () => {
                   style={{ width: "100%", height: "100%", objectFit: "cover" }}
                 >
                   <source
-                    src="/public/videos/اكتشف المغامرة معنا (1).mp4"
+                    src="public/videos/اكتشف المغامرة معنا (1).mp4"
                     type="video/mp4"
                   />
                   Your browser does not support the video tag.
