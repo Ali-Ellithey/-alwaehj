@@ -9,7 +9,8 @@ import { BrowserRouter } from "react-router-dom";
 
 createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter>
+    {/* التعديل هنا: أضفنا basename ليطابق رابط مستودعك على GitHub */}
+    <BrowserRouter basename="/-alwaehj">
       <App />
     </BrowserRouter>
   </React.StrictMode>
